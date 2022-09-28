@@ -8,14 +8,12 @@ import com.text.interfaces.IVivienda;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Daniel Casado
  */
 
-@Component
 public class Persona {
     
     @Value("1")

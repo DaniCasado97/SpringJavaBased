@@ -5,14 +5,12 @@
 package com.test.beans;
 
 import com.text.interfaces.IVivienda;
-import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Daniel Casado
  */
 
-@Component
 public class Chalet implements IVivienda{
 
     @Override
